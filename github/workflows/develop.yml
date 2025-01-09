@@ -8,7 +8,7 @@ permissions:
   contents: read
 jobs:
   terraform:
-    uses: ./.github/workflows/terraform/yml
+    uses: ./.github/workflows/terraform.yml
     with:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::891377156871:role/github-actions-cimar12-pipeline"
