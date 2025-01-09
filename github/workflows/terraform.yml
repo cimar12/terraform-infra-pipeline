@@ -22,6 +22,7 @@ on:
 jobs:
   terraform:
     default:
+      runs-on: ubuntu-latest
       run:
         shell:bash
     steps:
